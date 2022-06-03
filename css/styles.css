@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* header */
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 134px;
+}
+
+.header__logo {
+    width: 160px;
+    height: 41px;
+}
+
+.header__list {
+    width: 520px;
+    display: flex;
+    justify-content: space-around;
+}  
+
+.header__item {
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    list-style-type: none;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.header__active__link {
+    font-weight: bold;
+    opacity: 1;
+    color: #1F1534;
+}
+/* main */
+
+/* hero */
+.section__hero {
+    display: flex;
+    width: 1240px;
+    margin-top: 80px;
+}
+
+.section__hero__left {
+    width: 445px;
+    height: 336px;
+    margin-right: 102px;
+    margin-top: 87px;
+}
+
+.section__hero_header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin: 0;
+}
+
+.sectoin__hero__text {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 63px;
+}
+
+.setion_hero_link {
+    text-decoration: none;
+    background: #458FF6;
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    padding: 16px 40px;
+    
+}
+
+/* services */
+
+.section__servic__header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    margin: 0;
+    margin-top: 114px;
+    text-align: center;
+}
+
+.servic__section__line {
+    text-align: center;
+    margin-top: 26px;
+}
+
+.section__servic__hr {
+    display: inline-block;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.section__sevic__text {
+    width: 952px;
+    height: 60px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px; 
+    text-align: center;
+    color: #7D7987;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+/* servic_boxs */
+
+.section__boxs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 67px;   
+}
+.section__box {
+    background: #ffffff;
+    width: 350px;
+    height: 354px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding-left: 38px;
+    padding-right: 46px;
+    padding-top: 54px;
+    padding-bottom: 46px;
+    margin-right: 34px;
+    margin-bottom: 37px;
+}
+
+.section__box__img {
+    width: 92px;
+    height: 95px;
+}
+
+.section__box__header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.section__box__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 0;
+}
+/* servic__link */
+
+.section__servic_bottom {
+    text-align: center;
+}
+.section__servic_link {
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #458FF6;
+    text-decoration: none;
+    padding: 16px 51px;
+}
+/* hero 2 */
+
+.hero-2 {
+    width: 1273px;
+    height: 477px;
+    margin-top: 419px;
+    display: flex;
+    margin-right: 135px;
+}
+
+.hero-2-img {
+    width: 650px;
+    height: 477px;
+
+}
+
+.hero-2-right {
+     margin-left: 142px;
+}
+
+.hero-2-header {
+    width: 481px;
+    height: 112px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 26px;
+    border-radius: 10px;
+}
+
+.hero-2-hr {
+    width: 56px;
+    height: 0px    ;
+    color: #000;
+    border: 1px solid #000000;
+    background-color: #000000;
+    margin-bottom: 31px;
+    display: inline-block;
+    text-align: left;
+}
+
+.hero-2-text {
+    width: 450px;
+    height: 120px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.hero-2-link {
+    width: 200px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 167%;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    padding: 13px 51px;
+    text-decoration: none;
+   
+}
